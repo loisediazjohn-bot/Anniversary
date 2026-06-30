@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Reginald</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================
+         GAME WINDOW
+    =========================== -->
+
+    <div id="game">
+
+        <!-- Background -->
+        <div id="background"></div>
+
+        <!-- Character -->
+        <div id="character"></div>
+
+        <!-- ==========================
+             DIALOGUE BOX
+        =========================== -->
+
+        <div id="dialogue">
+
+            <!-- Dialogue text -->
+
+            <p id="text">
+
+                Welcome!
+
+            </p>
+
+            <!-- ==========================
+                 PLAYER INPUT
+            =========================== -->
+
+            <input
+                id="answer"
+                type="text"
+                placeholder="Type your answer here..."
+                autocomplete="off">
+
+            <!-- ==========================
+                 CHOICE BUTTONS
+            =========================== -->
+
+            <div id="choices">
+
+                <button id="available">
+
+                    Available
+
+                </button>
+
+                <button id="notAvailable">
+
+                    Not Available
+
+                </button>
+
+            </div>
+
+            <!-- ==========================
+                 CONTINUE BUTTON
+            =========================== -->
+
+            <button id="next">
+
+                Continue
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================
+         JAVASCRIPT
+    =========================== -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/3.0.3/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
